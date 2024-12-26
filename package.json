@@ -1,4 +1,10 @@
 {
+  "name": "stellar-multisig",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npx ts-node msig-setup.ts"
+  },
   "dependencies": {
     "@stellar/stellar-sdk": "^13.1.0"
   },
